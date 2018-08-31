@@ -83,9 +83,10 @@ var ppt = {
         var _this = this;
          //为了不计入点击后切换动画的时间，用settimeout。
         this.timer = setTimeout(function () {
+            console.log(99)
             clearTimeout(this.timer);
             _this.tool('next');
-        }, 30000)
+        }, 3000)
     }                                       
 }
 
